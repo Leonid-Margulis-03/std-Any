@@ -33,6 +33,5 @@ Methods like `Empty()` and `Clear()` manage the state of the object:
 5. Additional Features:
 
 A Swap method allows swapping the storage pointers of two Any objects efficiently.
-Constraints:
 
-The implementation avoids features like std::any, void*, and smart pointers, relying instead on custom memory management.
+The implementation avoids features like `std::any`, `void*`, and smart pointers, relying instead on custom memory management.
